@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.touche{
+  width: 50px;
+  height: 100px;
+  border: solid black 1px;
+}
+#clavier{
+  display: flex;
+}
+.white{
+  background-color: white;
+}
+.black{
+  background-color: black;
+  width: 25px;
+  height: 50px;
+  display: flex;
+  margin-left: 25px;
+}
+.blue{
+  background-color: blue;
+}
+.ligneHaut{
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  margin-left: 10px;
+}
+.ligneBas{
+  display: flex;
+  z-index: 0;
+}
+.global{
+  padding-right: 50px;
+  display: flex;
+}
+.green{
+  background-color: green;
+}
